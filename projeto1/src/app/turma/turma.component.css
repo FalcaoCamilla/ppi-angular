@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
-body{
-    background: linear-gradient(to right, #36d1dc, #5b86e5);
-    color: white;
-    font-family: 'Noto Sans', sans-serif;
-    text-align: center;
-}
 
 table, th, tbody{
     margin: 0 auto;
