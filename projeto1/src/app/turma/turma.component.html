@@ -1,1 +1,21 @@
-<p>turma works!</p>
+<body>
+    <h1>Info 4v - 2019.1</h1>
+
+    <h2>Disciplinas</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Docente</th>
+            <th>Carga H.</th>
+            <th>Período</th>
+        </tr>
+        <tr *ngFor="let disc of disciplinas"> <!--Criar tags ao percorrer a lista-->
+            <td>
+                {{ disc.nome }} <!--interpolação: duas chaves-->
+                {{ disc.docente }} 
+                {{ disc.ch }} 
+                {{ disc.periodo }} 
+            </td>
+        </tr>
+    </table>
+</body>
