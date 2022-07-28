@@ -1,0 +1,27 @@
+<body>
+    <h1>Saudação, User!</h1>
+    
+    <div id="container">
+        <label for="n1">Informe a primeira nota</label>
+        <input type="number" id="n1" name="n1"
+        #n1>
+        <label for="n2">Informe a segunda nota</label>
+        <input type="number" id="n2" name="n2"
+        #n2> 
+        <label for="n3">Informe a terceira nota</label>
+        <input type="number" id="n3" name="n3"
+        #n3> 
+        <label for="n4">Informe a quarta nota</label>
+        <input type="number" id="n4" name="n4"
+        #n4>      
+        <input type="button" id="calcula" value="Calcular"
+        (click)="calculaMedia(+n1.value, +n2.value, +n3.value, +n4.value)">
+    </div>
+
+    <div class="media">
+        <p>
+            {{mensagem}}
+        </p>
+    </div>
+
+</body>
