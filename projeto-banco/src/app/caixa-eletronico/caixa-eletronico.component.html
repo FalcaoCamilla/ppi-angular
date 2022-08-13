@@ -1,0 +1,38 @@
+<p class="alert alert-success">Saldo atual = {{ conta.obterSaldo() }}</p>
+
+<form>
+  <div class="form-group">
+    <label for="cli"> Cliente</label>
+    <input
+      class="form-control"
+      id="cli"
+      name="cli"
+      type="text"
+      [(ngModel)]="conta.cliente.nomeCli"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="add">Quantia</label>
+    <input class="form-control" id="add" type="number" #v1 />
+    <input
+      class="btn btn-primary"
+      type="button"
+      value="Depositar"
+      (click)="conta.depositar(+v1.value)"
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="add">Quantia</label>
+    <input class="form-control" id="deb" type="number" #v2 />
+    <input
+      class="btn btn-warning"
+      type="button"
+      value="Debitar"
+      (click)="conta.debitar(+v2.value)"
+    />
+  </div>
+
+  Cliente: {{ conta.cliente.nomeCli }}
+</form>
