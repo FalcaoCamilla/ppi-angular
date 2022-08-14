@@ -1,0 +1,12 @@
+<mat-form-field appearance="fill">
+      <mat-label for="bim1">Bim 1</mat-label>
+      <input  matInput placeholder="nota 1" type="number" id="bim1" name="bim1" [(ngModel)]="boletim.bimestre1">
+      <mat-label for="bim1">Bim 2</mat-label>
+      <input type="number" id="bim2" name="bim2" [(ngModel)]="boletim.bimestre2">
+      <mat-label for="bim1">Bim 3</mat-label>
+      <input type="number" id="bim3" name="bim3" [(ngModel)]="boletim.bimestre3">
+      <mat-label for="bim1">Bim 4</mat-label>
+      <input type="number" id="bim4" name="bim4" [(ngModel)]="boletim.bimestre4">
+  <input type="button" value="Calcular" (click)="calcular()">
+</mat-form-field>
+{{mensagem}}
