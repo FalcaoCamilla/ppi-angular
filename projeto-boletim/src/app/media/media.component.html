@@ -1,12 +1,30 @@
-<mat-form-field appearance="fill">
-      <mat-label for="bim1">Bim 1</mat-label>
-      <input  matInput placeholder="nota 1" type="number" id="bim1" name="bim1" [(ngModel)]="boletim.bimestre1">
-      <mat-label for="bim1">Bim 2</mat-label>
-      <input type="number" id="bim2" name="bim2" [(ngModel)]="boletim.bimestre2">
-      <mat-label for="bim1">Bim 3</mat-label>
-      <input type="number" id="bim3" name="bim3" [(ngModel)]="boletim.bimestre3">
-      <mat-label for="bim1">Bim 4</mat-label>
-      <input type="number" id="bim4" name="bim4" [(ngModel)]="boletim.bimestre4">
-  <input type="button" value="Calcular" (click)="calcular()">
-</mat-form-field>
-{{mensagem}}
+<form class="example-form">
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Primeiro Bimestre</mat-label>
+    <textarea matInput placeholder="Insira a nota do primeiro bimestre" name="message" [(ngModel)]="boletim.bimestre1"></textarea>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Segundo Bimestre</mat-label>
+    <textarea matInput placeholder="Insira a nota do segundo bimestre" name="message" [(ngModel)]="boletim.bimestre2"></textarea>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Terceiro Bimestre</mat-label>
+    <textarea matInput placeholder="Insira a nota do terceiro bimestre" name="message" [(ngModel)]="boletim.bimestre3"></textarea>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>Quarto Bimestre</mat-label>
+    <textarea matInput placeholder="Insira a nota do quarto bimestre" name="message" [(ngModel)]="boletim.bimestre4"></textarea>
+  </mat-form-field>
+
+  <button mat-raised-button (click)="calcular()">Calcular</button>
+
+  <div *ngIf="calcular" id="resultado">
+    {{mensagem}}
+  </div>
+
+</form>
+

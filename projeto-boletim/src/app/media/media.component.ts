@@ -11,11 +11,13 @@ export class MediaComponent implements OnInit {
   boletim: Boletim;
   media: number;
   mensagem: string;
+  visible: boolean;
 
   constructor() {
     this.boletim = new Boletim()
     this.media = 0;
     this.mensagem = '';
+    this.visible = false;
   }
 
   ngOnInit(): void {
@@ -23,7 +25,6 @@ export class MediaComponent implements OnInit {
 
   calcular() {
     this.media = this.boletim.calcularMedia();
-    this.mensagem = `Sua media final eh: ${this.media}`
+    this.mensagem = `Sua media final é: ${this.media}`
   }
-
 }
