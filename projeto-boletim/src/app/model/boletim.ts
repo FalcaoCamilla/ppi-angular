@@ -15,6 +15,7 @@ export class Boletim {
           this.bim1 = nota;
       } else {
           this.bim1 = 0;
+          window.alert('Informa uma nota entre 0 e 100!')
       }
   }
   get bimestre1(): number {
@@ -26,6 +27,7 @@ export class Boletim {
           this.bim2 = nota;
       } else {
         this.bim2 = 0;
+        window.alert('Informa uma nota entre 0 e 100!')
     }
   }
   get bimestre2(): number {
@@ -37,6 +39,7 @@ export class Boletim {
           this.bim3 = nota;
       } else {
         this.bim3 = 0;
+        window.alert('Informa uma nota entre 0 e 100!')
     }
   }
   get bimestre3(): number {
@@ -48,6 +51,7 @@ export class Boletim {
           this.bim4 = nota;
       } else {
         this.bim4 = 0;
+        window.alert('Informa uma nota entre 0 e 100!')
     }
   }
   get bimestre4(): number {

@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <form [formGroup]="mediaForm">
+                <p>
+                    <label for="b1" class="form-label">Bimestre 1</label>
+                    <input type="number" class="form-control" id="bimestre1" name="b1" formControlName="bim1"/>
+                </p>
+                <p>
+                    <label for="b2" class="form-label">Bimestre 2</label>
+                    <input type="number" class="form-control" id="bimestre2" name="b2" formControlName="bim2"/>
+                </p>
+                <p>
+                    <label for="b3" class="form-label">Bimestre 3</label>
+                    <input type="number" class="form-control" id="bimestre3" name="b3" formControlName="bim3"/>
+                </p>
+                <p>
+                    <label for="b4" class="form-label">Bimestre 4</label>
+                    <input type="number" class="form-control" id="bimestre4" name="b4" formControlName="bim4"/>
+                </p>
+                <p>
+                    <input (click)="calcular()" class="btn btn-success" id="btn" type="button" value="Calcular" [disabled]="mediaForm.invalid">
+                    
+                </p>
+            </form>
+            {{ mensagem }}
+        </div>
+    </div>
+</div>
