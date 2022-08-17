@@ -13,6 +13,8 @@ export class Boletim {
   set bimestre1(nota: number) {
       if (nota >= 0 && nota <= 100) {
           this.bim1 = nota;
+      } else {
+          this.bim1 = 0;
       }
   }
   get bimestre1(): number {
@@ -22,7 +24,9 @@ export class Boletim {
   set bimestre2(nota: number) {
       if (nota >= 0 && nota <= 100) {
           this.bim2 = nota;
-      }
+      } else {
+        this.bim2 = 0;
+    }
   }
   get bimestre2(): number {
       return this.bim2;
@@ -31,7 +35,9 @@ export class Boletim {
   set bimestre3(nota: number) {
       if (nota >= 0 && nota <= 100) {
           this.bim3 = nota;
-      }
+      } else {
+        this.bim3 = 0;
+    }
   }
   get bimestre3(): number {
       return this.bim3;
@@ -40,7 +46,9 @@ export class Boletim {
   set bimestre4(nota: number) {
       if (nota >= 0 && nota <= 100) {
           this.bim4 = nota;
-      }
+      } else {
+        this.bim4 = 0;
+    }
   }
   get bimestre4(): number {
       return this.bim4;
