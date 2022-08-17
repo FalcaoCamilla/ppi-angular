@@ -1,4 +1,8 @@
-<form class="example-form">
+<header>
+  <h1>Help <span class="student">Student</span> - Calcule sua média</h1>
+</header>
+
+<form class="example-form" (change)="calcular()">
 
   <mat-form-field class="example-full-width" appearance="fill">
     <mat-label>Primeiro Bimestre</mat-label>
@@ -20,10 +24,15 @@
     <textarea matInput placeholder="Insira a nota do quarto bimestre" name="message" [(ngModel)]="boletim.bimestre4"></textarea>
   </mat-form-field>
 
-  <button mat-raised-button (click)="calcular()">Calcular</button>
+  <div [hidden]="visible" id="resultado">
+    <div (mouseover)="changeText=true" (mouseout)="changeText=false">
+      <span *ngIf="!changeText">Segure aqui para visualizar a média</span>
+      <span *ngIf="changeText">{{mensagem}}</span>
+    </div>
+  </div>
 
-  <div *ngIf="calcular" id="resultado">
-    {{mensagem}}
+  <div class="bg">
+    <img src="/assets/image/student.png" class="img-bg">
   </div>
 
 </form>

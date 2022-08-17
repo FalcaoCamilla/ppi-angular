@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Secular+One&display=swap');
+
 .example-form {
-  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,13 +9,32 @@
 }
 
 .example-full-width {
-  width: 50%;
+  width: 30%;
 }
 
 #resultado{
   margin: 20px;
   line-height: 3em;
-  background: #b164b1;
+  background: rgb(118, 170, 153);
   border-radius: 7px;
-  color: white;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-family: 'Secular One', sans-serif;
+}
+
+h1{
+  font-family: 'Secular One', sans-serif;
+  color:rgb(143, 160, 154);
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.student{
+  font-family: 'Rubik Marker Hatch', cursive;
+  color:rgb(118, 170, 153)
+}
+
+.img-bg{
+  width: 350px;
 }
