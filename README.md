@@ -10,4 +10,7 @@ Projeto Banco - Classes conta e correntista > debitar e depositar quantia
 Aprendendo ngModel + bootstrap
 ![image](https://user-images.githubusercontent.com/94142714/185026231-1c7e3c50-aec2-4c62-91a3-04a972d9018c.png)
 
-Projeto
+Projeto Boletim | Calcular a média de acordo com as notas inseridas
+Aprendendo ngModel + Angular Material
+![image](https://user-images.githubusercontent.com/94142714/185027364-362ef313-f476-45cc-8aae-4ec390443daa.png)
+
