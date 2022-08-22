@@ -15,5 +15,6 @@ Aprendendo ngModel + bootstrap
 <h4>Projeto Boletim | Calcular a média de acordo com as notas inseridas</h4>
 Aprendendo ngModel + Angular Material
 
-![image](https://user-images.githubusercontent.com/94142714/185027364-362ef313-f476-45cc-8aae-4ec390443daa.png)
+![image](https://user-images.githubusercontent.com/94142714/185826603-0999584b-959b-46c4-9a3f-05fece2bd57e.png)
+
 
