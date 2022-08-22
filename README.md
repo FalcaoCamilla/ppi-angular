@@ -2,7 +2,7 @@
 
 <h3>Repositório criado a fim de registrar o conteúdo de introdução ao Angular na matéria de Programação para Internet.</h3>
 
-<h4>Atividade I - Saudação ao usuário</h4>
+<h4>Saudação ao usuário</h4>
 Aprendendo interpolation 
 
 ![image](https://user-images.githubusercontent.com/94142714/185023806-bf56345b-a91b-4088-a5be-8cea7547e793.png)
@@ -17,4 +17,7 @@ Aprendendo ngModel + Angular Material
 
 ![image](https://user-images.githubusercontent.com/94142714/185826603-0999584b-959b-46c4-9a3f-05fece2bd57e.png)
 
+<h4>Projeto Boletim | Calcular a média de acordo com as notas inseridas</h4>
+Utilizando Reactive Forms para realizar as validações
 
+![image](https://user-images.githubusercontent.com/94142714/185827160-9eb94955-b8dd-4dcf-a9a1-b96e191cf9d2.png)
