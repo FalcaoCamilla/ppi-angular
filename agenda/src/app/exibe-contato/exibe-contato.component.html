@@ -1,1 +1,7 @@
-<p>exibe-contato works!</p>
+<table>
+    <th>Nome</th>
+    <th>Email</th>
+    <ng-container *ngFor="let c of contato">
+        <tr><td>{{c.nome}}</td></tr>
+    </ng-container>
+</table>

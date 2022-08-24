@@ -1,1 +1,25 @@
-<p>add-contato works!</p>
+<header>
+    <h1>Agenda</h1>
+</header>
+
+<form>
+    <p>
+        <label for="nome">Nome</label>
+        <input type="string" id="nome" name="nome" [(ngModel)]="contato.nome"/>
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="string" id="email" name="email" [(ngModel)]="contato.email"/>
+    </p>
+    <p>
+        <label for="tel">Telefone</label>
+        <input type="string" id="tel" name="tel" [(ngModel)]="contato.telefone"/>
+    </p>
+    <p>
+        <label for="niver">Aniversário</label>
+        <input type="date" id="niver" name="niver" [(ngModel)]="contato.aniversario"/>
+    </p>
+    <p>
+        <input (click)=adicionaContato(contato) id="btn" type="button" value="Salvar">
+    </p>
+</form>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AgendaService } from '../model/agenda.service';
+import { Contato } from '../model/contato';
 
 @Component({
   selector: 'app-exibe-contato',
@@ -7,11 +8,14 @@ import { AgendaService } from '../model/agenda.service';
   styleUrls: ['./exibe-contato.component.css']
 })
 export class ExibeContatoComponent implements OnInit {
+  contato: Contato[];
 
-  constructor(private ag: AgendaService) { }
+  constructor(private dadosAgenda: AgendaService) {
+    this.contato = this.dadosAgenda.obterContatos()
+  }
 
   ngOnInit(): void {
-    console.log(this.ag.obterContatos())
+
   }
 
 }

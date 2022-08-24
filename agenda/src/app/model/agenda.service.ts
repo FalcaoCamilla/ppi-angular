@@ -9,17 +9,12 @@ export class AgendaService {
   private contatos: Contato[];
 
   constructor(){
-    this.contatos = [
-      {nome: 'Maria',
-      telefone: '84999035870',
-      email: 'milla@gmail.com',
-      aniversario: new Date(2003, 1, 6)}
-    ]
+    this.contatos = [];
   }
 
-  adicionarContato(c: Contato){
-    if (c!= null){
-      this.contatos.push(c);
+  addContato(pessoa: Contato){
+    if (pessoa!= null){
+      this.contatos.push(pessoa);
     }
   }
 
