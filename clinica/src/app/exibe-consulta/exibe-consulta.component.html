@@ -1,0 +1,21 @@
+<table class="table table-hover table-dark">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Nome do Paciente</th>
+        <th scope="col">Preço da Consulta</th>
+        <th scope="col">Data da Consulta</th>
+        <th scope="col">Preço Total:</th>
+        <td scope="row">{{dadosConsulta.obterTotal()}}</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let c of consulta">
+          <td scope="row">{{c.nomePaciente}}</td>
+          <td scope="row">{{c.preco}}</td>
+          <td scope="row">{{c.data}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+  
+  

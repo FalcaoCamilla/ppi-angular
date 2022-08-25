@@ -1,0 +1,21 @@
+<header>
+    <h1>Clínica</h1>
+</header>
+
+<form>
+    <p>
+        <label for="nome">Nome do Paciente</label>
+        <input type="string" id="nome" name="nome" [(ngModel)]="consulta.nomePaciente"/>
+    </p>
+    <p>
+        <label for="preco">Preço da Consulta</label>
+        <input type="number" id="preco" name="preco" [(ngModel)]="consulta.preco"/>
+    </p>
+    <p>
+        <label for="niver">Data da Consulta</label>
+        <input type="date" id="data" name="data" [(ngModel)]="consulta.data"/>
+    </p>
+    <p>
+        <input (click)=adicionaConsulta() id="btn" type="button" class="btn btn-dark" value="Agendar">
+    </p>
+</form>
