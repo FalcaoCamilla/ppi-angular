@@ -1,7 +1,19 @@
-<table>
-    <th>Nome</th>
-    <th>Email</th>
-    <ng-container *ngFor="let c of contato">
-        <tr><td>{{c.nome}}</td></tr>
-    </ng-container>
+<table class="table table-hover table-dark">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Email</th>
+      <th scope="col">Telefone</th>
+      <th scope="col">Aniversário</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let c of contato">
+        <td scope="row">{{c.nome}}</td>
+        <td scope="row">{{c.email}}</td>
+        <td scope="row">{{c.telefone}}</td>
+        <td scope="row">{{c.aniversario}}</td>
+    </tr>
+  </tbody>
 </table>
+

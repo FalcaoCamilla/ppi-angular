@@ -6,17 +6,19 @@ import { AppComponent } from './app.component';
 import { AddContatoComponent } from './add-contato/add-contato.component';
 import { ExibeContatoComponent } from './exibe-contato/exibe-contato.component';
 import { FormsModule } from '@angular/forms';
+import { AngularMaterialModule } from './model/angular-material.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     AddContatoComponent,
-    ExibeContatoComponent
+    ExibeContatoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AngularMaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
