@@ -23,7 +23,9 @@ export class AddConsultaComponent implements OnInit {
     nc.preco = this.consulta.preco;
     nc.data = this.consulta.data;
     this.c.addConsulta(nc);
-    this.consulta.preco=0;
     this.c.setTotal(0);
     this.c.somarPreco();
+    this.consulta.preco=0;
+    this.consulta.nomePaciente='';
+    this.consulta.data=new Date();
 }}
