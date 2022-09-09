@@ -9,7 +9,7 @@
     </p>
     <p>
         <label for="preco">Preço da Consulta</label>
-        <input type="number" id="preco" name="preco" [(ngModel)]="consulta.preco"/>
+        <input type="number" id="preco" name="preco" [(ngModel)]="consulta.preco" [ngClass]="{zero: consulta.preco === 0}"/>
     </p>
     <p>
         <label for="niver">Data da Consulta</label>
