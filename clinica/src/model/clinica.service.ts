@@ -34,4 +34,8 @@ export class ClinicaService {
   obterTotal(){
     return this.total
   }
+
+  setTotal(val: number){
+    this.total=val
+  }
 }

@@ -25,4 +25,5 @@ export class AddContatoComponent implements OnInit {
       email: '',
       telefone: '',
       aniversario: new Date()}
-}}
+}
+}

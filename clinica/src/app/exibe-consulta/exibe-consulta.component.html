@@ -4,8 +4,7 @@
         <th scope="col">Nome do Paciente</th>
         <th scope="col">Preço da Consulta</th>
         <th scope="col">Data da Consulta</th>
-        <th scope="col">Preço total das consultas:</th>
-        <td scope="row">{{dadosConsulta.obterTotal()}}</td>
+        <th scope="col">Preço total das consultas</th>
       </tr>
     </thead>
     <tbody>
@@ -13,6 +12,13 @@
           <td scope="row">{{c.nomePaciente}}</td>
           <td scope="row">{{c.preco}}</td>
           <td scope="row">{{c.data}}</td>
+          <td scope="row"></td>
+      </tr>
+      <tr>
+        <td scope="row"></td>
+        <td scope="row"></td>
+        <td scope="row"></td>
+        <td scope="row">{{dadosConsulta.obterTotal()}}</td>
       </tr>
       
     </tbody>

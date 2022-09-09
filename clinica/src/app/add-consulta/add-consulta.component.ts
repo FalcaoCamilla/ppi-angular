@@ -23,5 +23,6 @@ export class AddConsultaComponent implements OnInit {
     nc.preco = this.consulta.preco;
     nc.data = this.consulta.data;
     this.c.addConsulta(nc);
+    this.c.setTotal(0);
     this.c.somarPreco();
 }}
