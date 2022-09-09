@@ -21,3 +21,8 @@ Aprendendo ngModel + Angular Material
 Utilizando Reactive Forms para realizar as validações
 
 ![image](https://user-images.githubusercontent.com/94142714/185827160-9eb94955-b8dd-4dcf-a9a1-b96e191cf9d2.png)
+
+<h4>Projeto Agenda | Adicionar e exibir contatos </h4>
+Aprendendo o uso do service
+
+![image](https://user-images.githubusercontent.com/94142714/189364120-6ccf93e6-7557-4212-8b5b-5c0f4431a083.png)
