@@ -7,6 +7,11 @@ Aprendendo interpolation
 
 ![image](https://user-images.githubusercontent.com/94142714/185023806-bf56345b-a91b-4088-a5be-8cea7547e793.png)
 
+<h4>Tabela de disciplinas (projeto 1) | Exibir dados na tabela>/h4>
+Aprendendo interpolation e ngFor
+
+![image](https://user-images.githubusercontent.com/94142714/189683704-27eb8cdd-02b9-4ba2-a946-6e19ebc71092.png)
+
 <h4>Projeto Banco - Classes conta e correntista > debitar e depositar quantia</h4>
 Aprendendo ngModel + bootstrap
 
