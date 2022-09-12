@@ -1,4 +1,4 @@
-<h2>Introdução ao Angular - Programação para Internet (IFRN)</h2>
+<h2>Introdução ao Angular - Programação para Internet (2022.1) | IFRN</h2>
 
 <h3>Repositório criado a fim de registrar o conteúdo de introdução ao Angular na matéria de Programação para Internet.</h3>
 
