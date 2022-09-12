@@ -2,7 +2,7 @@
 
 <h3>Repositório criado a fim de registrar o conteúdo de introdução ao Angular na matéria de Programação para Internet.</h3>
 
-<h4>Saudação ao usuário | Receber e exibir dados</h4>
+<h4>Saudação ao usuário (atividade 1) | Receber e exibir dados</h4>
 Aprendendo interpolation 
 
 ![image](https://user-images.githubusercontent.com/94142714/185023806-bf56345b-a91b-4088-a5be-8cea7547e793.png)
