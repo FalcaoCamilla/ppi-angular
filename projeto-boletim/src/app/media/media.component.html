@@ -26,7 +26,7 @@
 
   <div [hidden]="visible" id="resultado">
     <div (mouseover)="changeText=true" (mouseout)="changeText=false">
-      <span *ngIf="!changeText">Segure aqui para visualizar a média</span>
+      <span *ngIf="!changeText">Segure aqui para visualizar a média final</span>
       <span *ngIf="changeText">{{mensagem}}</span>
     </div>
   </div>
